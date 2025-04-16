@@ -1,0 +1,23 @@
+{
+    "problem": {
+        "name": "Add Two Numbers",
+        "file": "./problem.md",
+        "url": "https://leetcode.com/problems/add-two-numbers/description",
+        "difficulty": "medium"
+    },
+    "languages": {
+        "java": {
+            "file": "./soution.java",
+            "stats": {
+                "runtime": {
+                    "value": 2,
+                    "percentile": 12.98
+                },
+                "memory": {
+                    "value": 42.64,
+                    "percentile": 99.97
+                }
+            }
+        }
+    }
+}

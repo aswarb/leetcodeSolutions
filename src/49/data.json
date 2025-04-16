@@ -1,0 +1,23 @@
+{
+    "problem": {
+        "name": "Group Anagrams",
+        "file": "./problem.md",
+        "url": "https://leetcode.com/problems/group-anagrams/description/",
+        "difficulty": "medium"
+    },
+    "languages": {
+        "python": {
+            "file": "./solution.py",
+            "stats": {
+                "runtime": {
+                    "value":101,
+                    "percentile": 5.08
+                },
+                "memory": {
+                    "value": 20.53,
+                    "percentile": 89.61
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "problem": {
+        "name": "Median of Two Sorted Arrays",
+        "file": "./problem.md",
+        "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
+        "difficulty": "hard"
+    },
+    "languages": {
+        "python": {
+            "file": "./solution.py",
+            "stats": {
+                "runtime": {
+                    "value": 89,
+                    "percentile": 6.18
+                },
+                "memory": {
+                    "value": 16.6,
+                    "percentile": 100.0
+                }
+            }
+        }
+    }
+}

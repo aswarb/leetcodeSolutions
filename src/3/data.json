@@ -1,0 +1,23 @@
+{
+    "problem": {
+        "name": "Longest Substring Without Rpeating Characters",
+        "file": "./problem.md",
+        "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+        "difficulty": "medium"
+    },
+    "languages": {
+                "java": {
+            "file": "./soution.java",
+            "stats": {
+                "runtime": {
+                    "value": 413,
+                    "percentile": 5.02
+                },
+                "memory": {
+                    "value": 43.48,
+                    "percentile": 92.48
+                }
+            }
+        }
+    }
+}
