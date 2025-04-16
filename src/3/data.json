@@ -7,7 +7,7 @@
     },
     "languages": {
                 "java": {
-            "file": "./soution.java",
+            "file": "./solution.java",
             "stats": {
                 "runtime": {
                     "value": 413,
