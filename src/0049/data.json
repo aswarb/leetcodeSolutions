@@ -1,6 +1,6 @@
 {
     "problem": {
-        "name": "Group Anagrams",
+        "name": "49. Group Anagrams",
         "file": "./problem.md",
         "url": "https://leetcode.com/problems/group-anagrams/description/",
         "difficulty": "medium"
