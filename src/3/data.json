@@ -1,6 +1,6 @@
 {
     "problem": {
-        "name": "Longest Substring Without Rpeating Characters",
+        "name": "3. Longest Substring Without Rpeating Characters",
         "file": "./problem.md",
         "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
         "difficulty": "medium"
