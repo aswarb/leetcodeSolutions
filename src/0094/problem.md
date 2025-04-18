@@ -1,42 +1,33 @@
-Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
-
-You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
-
-You can return the answer in any order.
-
- 
+Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
 Example 1:
 
-Input: nums = \[2,7,11,15\], target = 9
-Output: \[0,1\]
-Explanation: Because nums\[0\] + nums\[1\] == 9, we return \[0, 1\].
+Input: `root = [1,null,2,3]`
+Output: `[1,3,2]`
+Explanation:
+    ![Binary Tree 1](./img/tree_1.png)
 
 Example 2:
 
-Input: nums = \[3,2,4\], target = 6
-Output: \[1,2\]
+Input: `root = [1,2,3,4,5,null,8,null,null,6,7,9]`
+Output: `[4,2,6,5,7,1,3,9,8]`
+Explanation:
+    ![Binary Tree 2](./img/tree_2.png)
 
 Example 3:
 
-Input: nums = \[3,3\], target = 6
-Output: \[0,1\]
+Input: `root = []`
+Output: `[]`
+
+Example 4:
+
+Input: `root = [1]`
+Output: `[1]`
 
  
 
 Constraints:
 
-* `2 <= nums.length <= 104`
-* `-109 <= nums[i] <= 109`
-* `-109 <= target <= 109`
-* `Only one valid answer exists.`
- 
-Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+    * The number of nodes in the tree is in the range `[0, 100]`.
+    * `-100 <= Node.val <= 100`
 
-
-**Hint 1**
-A really brute force way would be to search for all possible pairs of numbers but that would be too slow. Again, it's best to try out brute force solutions for just for completeness. It is from these brute force solutions that you can come up with optimizations.
-**Hint 2**
-So, if we fix one of the numbers, say x, we have to scan the entire array to find the next number y which is value - x where value is the input parameter. Can we change our array somehow so that this search becomes faster?
-**Hint 3**
-The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?

@@ -1,34 +1,21 @@
 {
     "problem": {
-        "name": "Two Sum",
+        "name": "876. Middle of the Linked List",
         "file": "./problem.md",
-        "url": "https://leetcode.com/problems/two-sum/description/",
+        "url": "https://leetcode.com/problems/middle-of-the-linked-list/description/",
         "difficulty": "easy"
     },
     "languages": {
-        "python": {
-            "file": "./solution.py",
-            "stats": {
-                "runtime": {
-                    "value": 4680,
-                    "percentile": 5.0
-                },
-                "memory": {
-                    "value": 17.1,
-                    "percentile": 100.0
-                }
-            }
-        },
         "java": {
             "file": "./solution.java",
             "stats": {
                 "runtime": {
-                    "value": 49,
-                    "percentile": 12.15
+                    "value": 0,
+                    "percentile": 100.00
                 },
                 "memory": {
-                    "value": 43.10,
-                    "percentile": 99.89
+                    "value": 41.67,
+                    "percentile": 7.14
                 }
             }
         }

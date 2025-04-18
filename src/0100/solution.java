@@ -1,16 +1,29 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int maxlength = nums.length;
-        int[] retVal = new int[2];
-        for (int i = 0; i < maxlength; i++) {
-            for (int j = i+1; j < maxlength; j++) {
-                if (target == (nums[i] + nums[j]) && i != j) {
-                    retVal[0] = i;
-                    retVal[1] = j;
-                    break;
-                }
-            }
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) {
+            return true;
         }
-        return retVal;
+        if (p == null || q == null) {
+            return false;
+        }
+        if (p.val == q.val) {
+            return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        }
+        return false;
     }
 }

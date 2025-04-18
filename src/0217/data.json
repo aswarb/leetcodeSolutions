@@ -1,8 +1,8 @@
 {
     "problem": {
-        "name": "Two Sum",
+        "name": "217. Contains Duplicate",
         "file": "./problem.md",
-        "url": "https://leetcode.com/problems/two-sum/description/",
+        "url": "https://leetcode.com/problems/contains-duplicate/description/",
         "difficulty": "easy"
     },
     "languages": {
@@ -10,25 +10,12 @@
             "file": "./solution.py",
             "stats": {
                 "runtime": {
-                    "value": 4680,
-                    "percentile": 5.0
+                    "value": 547,
+                    "percentile": 5.15
                 },
                 "memory": {
-                    "value": 17.1,
-                    "percentile": 100.0
-                }
-            }
-        },
-        "java": {
-            "file": "./solution.java",
-            "stats": {
-                "runtime": {
-                    "value": 49,
-                    "percentile": 12.15
-                },
-                "memory": {
-                    "value": 43.10,
-                    "percentile": 99.89
+                    "value": 30.83,
+                    "percentile": 91.74
                 }
             }
         }

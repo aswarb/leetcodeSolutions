@@ -1,8 +1,8 @@
 {
     "problem": {
-        "name": "Two Sum",
+        "name": "242. Valid Anagram",
         "file": "./problem.md",
-        "url": "https://leetcode.com/problems/two-sum/description/",
+        "url": "https://leetcode.com/problems/valid-anagram/description/",
         "difficulty": "easy"
     },
     "languages": {
@@ -10,25 +10,12 @@
             "file": "./solution.py",
             "stats": {
                 "runtime": {
-                    "value": 4680,
-                    "percentile": 5.0
+                    "value": 67,
+                    "percentile": 5.59
                 },
                 "memory": {
-                    "value": 17.1,
-                    "percentile": 100.0
-                }
-            }
-        },
-        "java": {
-            "file": "./solution.java",
-            "stats": {
-                "runtime": {
-                    "value": 49,
-                    "percentile": 12.15
-                },
-                "memory": {
-                    "value": 43.10,
-                    "percentile": 99.89
+                    "value": 16.94,
+                    "percentile": 100.00
                 }
             }
         }

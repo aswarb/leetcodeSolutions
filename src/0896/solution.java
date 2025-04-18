@@ -1,16 +1,39 @@
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int maxlength = nums.length;
-        int[] retVal = new int[2];
-        for (int i = 0; i < maxlength; i++) {
-            for (int j = i+1; j < maxlength; j++) {
-                if (target == (nums[i] + nums[j]) && i != j) {
-                    retVal[0] = i;
-                    retVal[1] = j;
-                    break;
-                }
-            }
-        }
-        return retVal;
+  public boolean isMonotonic(int[] nums) {
+    int i = 0;
+    while (i < nums.length - 1) {
+      if (nums[i] > nums[i + 1]) {
+        return Solution.isDescending(nums);
+      } else if (nums[i] < nums[i + 1]) {
+        return Solution.isAscending(nums);
+      }
+      i++;
     }
+    return true;
+  }
+
+  private static boolean isDescending(int[] nums) {
+    int i = 0;
+
+    while (nums[i] >= nums[i + 1]) {
+      i++;
+
+      if (i == nums.length - 1) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  private static boolean isAscending(int[] nums) {
+    int i = 0;
+    while (nums[i] <= nums[i + 1]) {
+      i++;
+
+      if (i == nums.length - 1) {
+        return true;
+      }
+    }
+    return false;
+  }
 }

@@ -1,16 +1,41 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int maxlength = nums.length;
-        int[] retVal = new int[2];
-        for (int i = 0; i < maxlength; i++) {
-            for (int j = i+1; j < maxlength; j++) {
-                if (target == (nums[i] + nums[j]) && i != j) {
-                    retVal[0] = i;
-                    retVal[1] = j;
-                    break;
-                }
-            }
+    public boolean isSymmetric(TreeNode root) {
+        if (root.left == null && root.right == null) {
+            return true;
         }
-        return retVal;
+        if (root.left == null || root.right == null) {
+            return false;
+        }
+        return isMirror(root.left, root.right);
+    }
+    
+    public boolean isMirror(TreeNode lNode, TreeNode rNode) {
+        if (lNode == null && rNode == null) {
+            return true;
+        }
+        if (lNode == null || rNode == null) {
+            return false;
+        }
+        if (lNode.val == rNode.val) {
+            return isMirror(lNode.left, rNode.right) && isMirror(lNode.right, rNode.left);
+        } else {
+            return false;
+        }
     }
 }
