@@ -1,6 +1,6 @@
 {
     "problem": {
-        "name": "Two Sum",
+        "name": "1. Two Sum",
         "file": "./problem.md",
         "url": "https://leetcode.com/problems/two-sum/description/",
         "difficulty": "easy"
