@@ -1,6 +1,6 @@
 {
     "problem": {
-        "name": "Median of Two Sorted Arrays",
+        "name": "4. Median of Two Sorted Arrays",
         "file": "./problem.md",
         "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
         "difficulty": "hard"
