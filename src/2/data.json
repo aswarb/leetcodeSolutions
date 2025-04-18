@@ -1,6 +1,6 @@
 {
     "problem": {
-        "name": "Add Two Numbers",
+        "name": "2. Add Two Numbers",
         "file": "./problem.md",
         "url": "https://leetcode.com/problems/add-two-numbers/description",
         "difficulty": "medium"
