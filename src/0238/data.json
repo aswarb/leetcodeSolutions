@@ -1,6 +1,6 @@
 {
     "problem": {
-        "name": "238. Product Of Array Except Sekf",
+        "name": "238. Product Of Array Except Self",
         "file": "./problem.md",
         "url": "https://leetcode.com/problems/product-of-array-except-self/description/",
         "difficulty": "medium"
