@@ -1,0 +1,23 @@
+{
+    "problem": {
+        "name": "238. Product Of Array Exceot Sekf",
+        "file": "./problem.md",
+        "url": "https://leetcode.com/problems/product-of-array-except-self/description/",
+        "difficulty": "medium"
+    },
+    "languages": {
+        "javascript": {
+            "file": "./solution.js",
+            "stats": {
+                "runtime": {
+                    "value": 2,
+                    "percentile": 96.43
+                },
+                "memory": {
+                    "value": 71.27,
+                    "percentile": 47.12
+                }
+            }
+        }
+    }
+}
