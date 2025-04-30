@@ -1,0 +1,23 @@
+{
+    "problem": {
+        "name": "347. Top K Frequent Elements",
+        "file": "./problem.md",
+        "url": "https://leetcode.com/problems/top-k-frequent-elements/description/",
+        "difficulty": "medium"
+    },
+    "languages": {
+         "javascript": {
+            "file": "./solution.js",
+            "stats": {
+                "runtime": {
+                    "value": 0,
+                    "percentile":100.00
+                },
+                "memory": {
+                    "value": 57.29,
+                    "percentile": 91.82                
+                    }
+            }
+        }
+    }
+}
