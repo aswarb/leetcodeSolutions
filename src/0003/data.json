@@ -6,7 +6,7 @@
         "difficulty": "medium"
     },
     "languages": {
-                "java": {
+        "java": {
             "file": "./solution.java",
             "stats": {
                 "runtime": {

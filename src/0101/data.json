@@ -6,7 +6,6 @@
         "difficulty": "easy"
     },
     "languages": {
-
         "java": {
             "file": "./solution.java",
             "stats": {

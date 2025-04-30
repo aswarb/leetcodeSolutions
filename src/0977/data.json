@@ -6,12 +6,12 @@
         "difficulty": "easy"
     },
     "languages": {
-         "java": {
+        "java": {
             "file": "./solution.java",
             "stats": {
                 "runtime": {
                     "value": 1,
-                    "percentile":100.00
+                    "percentile": 100.0
                 },
                 "memory": {
                     "value": 43.89,

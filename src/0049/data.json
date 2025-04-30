@@ -10,7 +10,7 @@
             "file": "./solution.py",
             "stats": {
                 "runtime": {
-                    "value":101,
+                    "value": 101,
                     "percentile": 5.08
                 },
                 "memory": {

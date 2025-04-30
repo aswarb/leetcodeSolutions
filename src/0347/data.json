@@ -6,17 +6,17 @@
         "difficulty": "medium"
     },
     "languages": {
-         "javascript": {
+        "javascript": {
             "file": "./solution.js",
             "stats": {
                 "runtime": {
                     "value": 0,
-                    "percentile":100.00
+                    "percentile": 100.0
                 },
                 "memory": {
                     "value": 57.29,
-                    "percentile": 91.82                
-                    }
+                    "percentile": 91.82
+                }
             }
         }
     }

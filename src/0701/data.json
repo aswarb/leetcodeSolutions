@@ -2,7 +2,7 @@
     "problem": {
         "name": "701. Insert into a Binary Search Tree",
         "file": "./problem.md",
-        "url":"https://leetcode.com/problems/insert-into-a-binary-search-tree/description/",
+        "url": "https://leetcode.com/problems/insert-into-a-binary-search-tree/description/",
         "difficulty": "medium"
     },
     "languages": {
@@ -11,7 +11,7 @@
             "stats": {
                 "runtime": {
                     "value": 0,
-                    "percentile": 100.00
+                    "percentile": 100.0
                 },
                 "memory": {
                     "value": 53.72,

@@ -5,14 +5,14 @@ Example 1:
 Input: `root = [1,null,2,3]`
 Output: `[1,3,2]`
 Explanation:
-    ![Binary Tree 1](./img/tree_1.png)
+![Binary Tree 1](./img/tree_1.png)
 
 Example 2:
 
 Input: `root = [1,2,3,4,5,null,8,null,null,6,7,9]`
 Output: `[4,2,6,5,7,1,3,9,8]`
 Explanation:
-    ![Binary Tree 2](./img/tree_2.png)
+![Binary Tree 2](./img/tree_2.png)
 
 Example 3:
 
@@ -24,10 +24,7 @@ Example 4:
 Input: `root = [1]`
 Output: `[1]`
 
- 
-
 Constraints:
 
     * The number of nodes in the tree is in the range `[0, 100]`.
     * `-100 <= Node.val <= 100`
-

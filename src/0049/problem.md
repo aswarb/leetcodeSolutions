@@ -22,9 +22,9 @@ Output: `[[""]]`
 
 Example 3:
 
-Input:`strs = ["a"]` 
+Input:`strs = ["a"]`
 
-Output:  `[["a"]]` 
+Output: `[["a"]]`
 
 Constraints:
 
